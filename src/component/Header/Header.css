@@ -1,14 +1,20 @@
-.logo{
-    color:black;
-    text-shadow: 0px 0px 22px rgba(231,166,26,0.6);
-    font-weight: 700;
-}  
+nav .container-fluid{
+  padding-left: 50px;
+  padding-right: 50px;
+}
+.navbar-nav {
+  gap: 1rem;
+}
+.navbar-nav .nav-link {
+  font-weight: 600;
+}
 .custom-search {
     width: 250px;
     padding: .5rem;
     border-radius: 5rem;
-    border: 1px solid rgb(126, 124, 124);
+    /* border: 1px solid rgb(201, 199, 199); */
     font-size: .8rem;
+    box-shadow: 0 0 2px #00000012, 0 2px 2px #0000000f, 0 1px 3px #0000001a;
   }
   
   .custom-search-container {

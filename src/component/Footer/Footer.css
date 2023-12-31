@@ -1,0 +1,74 @@
+footer{
+    width: 100%;
+    height: 50vh;
+
+}
+footer .container-fluid{
+    padding-top: 3rem;
+    display: flex;
+    justify-content: space-evenly;
+    
+}
+footer .container-fluid .footer-heading{
+    color: black;
+    font-size: 1.2rem;
+    font-weight: 600;
+    /* font-family: Verdana, Geneva, Tahoma, sans-serif; */
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+footer .container-fluid .footer-link{
+    text-align: left;
+}
+footer .container-fluid .footer-link ul{
+    list-style: none;   
+    text-align: left;
+    padding: 0;
+    
+}
+footer .container-fluid .footer-link ul li{
+    margin-top: 4%;
+}
+footer .container-fluid .footer-link .sec-link{
+  text-decoration: none;
+  color:black;
+  font-size: .9rem;
+
+}
+footer .container-fluid .footer-link .sec-link:hover{
+    text-decoration: underline;
+    color: gray;
+  
+}
+footer .container-fluid .footer-link .socials ul{
+    display: flex;
+    padding: 0;
+    gap: 1rem;
+}
+
+footer .container-fluid .footer-link .socials ul li{
+    display: flex;
+
+
+}
+.social-link{
+    border: .5px solid black;
+    padding: .5rem;
+    color: black;
+}
+.social-link:nth-child(1n):hover{
+    color: brown;
+    border: .5px solid brown;
+}
+.social-link:nth-child(2n):hover{
+    color: skyblue;
+    border: .5px solid skyblue;
+}
+.social-link:nth-child(3n):hover{
+    color: gray;
+    border: .5px solid gray;
+}
+.social-link:nth-child(4n):hover{
+    color: red;
+    border: .5px solid red;
+}

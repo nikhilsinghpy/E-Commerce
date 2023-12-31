@@ -7,7 +7,7 @@ export default class Header extends Component {
   render() {
     return (
       <div>
-        <nav className="navbar navbar-expand-lg navbar-light bg-light ">
+        <nav className="navbar navbar-expand-lg navbar-light  " >
           <div className="container-fluid">
             <Link className="navbar-brand " to="/"><img src={logo} alt="logo" width={'150'} height={'40'} style={{objectFit:'cover'}}/></Link>
             <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -19,16 +19,16 @@ export default class Header extends Component {
                   <Link className="nav-link" to="/">Home</Link>
                 </li>
                 <li className="nav-item">
-                  <Link className="nav-link" to="/about">Shop <span>All</span></Link>
+                  <Link className="nav-link" to="/">Shop <span>All</span></Link>
                 </li>
                 <li className="nav-item">
-                  <Link className="nav-link" to="#" aria-disabled="true">Men</Link>
+                  <Link className="nav-link" to="/men" aria-disabled="true">Men</Link>
                 </li>
                 <li className="nav-item">
-                  <Link className="nav-link" to="#" aria-disabled="true">Women</Link>
+                  <Link className="nav-link" to="/women" aria-disabled="true">Women</Link>
                 </li>
                 <li className="nav-item">
-                  <Link className="nav-link" to="#" aria-disabled="true">Trending</Link>
+                  <Link className="nav-link" to="/trending" aria-disabled="true">Trending</Link>
                 </li>
               </ul>
               <div className="custom-search" >

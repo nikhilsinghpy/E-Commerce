@@ -10,8 +10,8 @@ export default class Footer extends Component {
   render() {
     return (
       <div>
-        <footer>
-          <div className="container-fluid bg-light">
+        <footer className='d-flex'>
+          <div className="container-fluid">
             <div className="footer-link">
               <div className="logo">
                 <Link to="/"><img src={logo} alt="logo" width={'150'} height={'40'} style={{objectFit:'cover'}}/></Link>
@@ -20,29 +20,29 @@ export default class Footer extends Component {
             <div className="footer-link">
                 <h4 className='footer-heading'>About-us</h4>
                 <ul>
-                  <li><Link className='sec-link' to="http://">Explore</Link></li>
-                  <li><Link className='sec-link' to="http://">Learn More</Link></li>
+                  <li><Link className='sec-link' to="/">Explore</Link></li>
+                  <li><Link className='sec-link' to="about-us">Learn More</Link></li>
                 </ul>
             </div>
             <div className="footer-link">
               <h4 className='footer-heading'>Policies</h4>
               <ul>
-                <li><Link className='sec-link' to="http://">Exchnage/Return Your order</Link></li>
-                <li><Link className='sec-link' to="http://">Shipping Policy</Link></li>
-                <li><Link className='sec-link' to="http://">Refund Policy</Link></li>
-                <li><Link className='sec-link' to="http://">Terms and Conditions</Link></li>
-                <li><Link className='sec-link' to="http://">Privacy Policy</Link></li>
-                <li><Link className='sec-link' to="http://">Fraud Protection</Link></li>
+                <li><Link className='sec-link' to="contact-us">Exchnage/Return Your order</Link></li>
+                <li><Link className='sec-link' to="/">Shipping Policy</Link></li>
+                <li><Link className='sec-link' to="/">Refund Policy</Link></li>
+                <li><Link className='sec-link' to="/">Terms and Conditions</Link></li>
+                <li><Link className='sec-link' to="contact-us/">Privacy Policy</Link></li>
+                <li><Link className='sec-link' to="contact-us">Fraud Protection</Link></li>
               </ul>
             </div>
             <div className="footer-link">
               <div className="socials">
                 <h4 className='footer-heading'>Follow us</h4>
                 <ul>
-                  <li><Link className='social-link' to="http://"><FaInstagram /></Link></li>
-                  <li><Link className='social-link' to="http://"><FaFacebookSquare /></Link></li>
-                  <li><Link className='social-link' to="http://"><FaXTwitter /></Link></li>
-                  <li><Link className='social-link' to="http://"><FaYoutube /></Link></li>
+                  <li><Link className='social-link' to="/"><FaInstagram /></Link></li>
+                  <li><Link className='social-link' to="/"><FaFacebookSquare /></Link></li>
+                  <li><Link className='social-link' to="/"><FaXTwitter /></Link></li>
+                  <li><Link className='social-link' to="/"><FaYoutube /></Link></li>
                 </ul>
               </div>
             </div>

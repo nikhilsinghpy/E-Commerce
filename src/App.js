@@ -6,6 +6,9 @@ import Footer from './component/Footer/Footer';
 import Dashboard from './component/Dashboard/Dashboard';
 import AboutUS from './component/About-us/AboutUS';
 import ContactUs from './component/Contact-us/ContactUs';
+import Men from './component/Mensection/Men';
+import Women from './component/Womensection/Women';
+import Trending from './component/trending/Trending';
 
 
 function App() {
@@ -16,6 +19,11 @@ function App() {
             <Route path="/" element={<Dashboard />} />
             <Route path="About-us" element={<AboutUS />} />
             <Route path="Contact-us" element={<ContactUs />} />
+            <Route path="/men" element={<Men />} />
+            <Route path="/women" element={<Women />} />
+            <Route path="/trending" element={<Trending />} />
+            <Route path="contact-us" element={<ContactUs />} />
+            <Route path="about-us" element={<AboutUS />} />
         </Routes>
       <Footer />
   </BrowserRouter>

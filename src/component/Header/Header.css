@@ -1,6 +1,10 @@
+.navbar{
+  background-color: #fdf6f0;
+}
 nav .container-fluid{
   padding-left: 50px;
   padding-right: 50px;
+  
 }
 .navbar-nav {
   gap: 1rem;
@@ -38,4 +42,26 @@ nav .container-fluid{
     background-color: transparent;
     text-align: center;
   }
-  
+@media  (max-width: 768px)
+{
+  nav .container-fluid{
+    padding-left: 25px;
+    padding-right: 25px;
+    
+  }
+    
+}
+@media  (max-width: 425px)
+{
+  nav .container-fluid{
+    padding-left: 15px;
+    padding-right: 15px;
+    
+  }
+    
+}
+@media  (max-width: 375px)
+{
+    
+    
+}

@@ -1,0 +1,13 @@
+@media  (max-width: 1200px)
+{
+    html{
+        font-size: 90%;
+    }
+    
+}
+
+@media (max-width:1024px){
+    section {
+        padding: 10rem 3% 2rem;
+    }
+}

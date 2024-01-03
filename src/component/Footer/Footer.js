@@ -20,7 +20,7 @@ export default class Footer extends Component {
             <div className="footer-link">
                 <h4 className='footer-heading'>About-us</h4>
                 <ul>
-                  <li><Link className='sec-link' to="/">Explore</Link></li>
+                  <li><Link className='sec-link' to="*">Explore</Link></li>
                   <li><Link className='sec-link' to="about-us">Learn More</Link></li>
                 </ul>
             </div>
@@ -28,9 +28,9 @@ export default class Footer extends Component {
               <h4 className='footer-heading'>Policies</h4>
               <ul>
                 <li><Link className='sec-link' to="contact-us">Exchnage/Return Your order</Link></li>
-                <li><Link className='sec-link' to="/">Shipping Policy</Link></li>
-                <li><Link className='sec-link' to="/">Refund Policy</Link></li>
-                <li><Link className='sec-link' to="/">Terms and Conditions</Link></li>
+                <li><Link className='sec-link' to="*">Shipping Policy</Link></li>
+                <li><Link className='sec-link' to="*">Refund Policy</Link></li>
+                <li><Link className='sec-link' to="*">Terms and Conditions</Link></li>
                 <li><Link className='sec-link' to="contact-us/">Privacy Policy</Link></li>
                 <li><Link className='sec-link' to="contact-us">Fraud Protection</Link></li>
               </ul>
@@ -39,10 +39,10 @@ export default class Footer extends Component {
               <div className="socials">
                 <h4 className='footer-heading'>Follow us</h4>
                 <ul>
-                  <li><Link className='social-link' to="/"><FaInstagram /></Link></li>
-                  <li><Link className='social-link' to="/"><FaFacebookSquare /></Link></li>
-                  <li><Link className='social-link' to="/"><FaXTwitter /></Link></li>
-                  <li><Link className='social-link' to="/"><FaYoutube /></Link></li>
+                  <li><Link className='social-link' to="*"><FaInstagram /></Link></li>
+                  <li><Link className='social-link' to="*"><FaFacebookSquare /></Link></li>
+                  <li><Link className='social-link' to="*"><FaXTwitter /></Link></li>
+                  <li><Link className='social-link' to="*"><FaYoutube /></Link></li>
                 </ul>
               </div>
             </div>

@@ -9,6 +9,7 @@ import ContactUs from './component/Contact-us/ContactUs';
 import Men from './component/Mensection/Men';
 import Women from './component/Womensection/Women';
 import Trending from './component/trending/Trending';
+import Pagenotfound from './component/pagenotfound/Pagenotfound';
 
 
 function App() {
@@ -24,6 +25,7 @@ function App() {
             <Route path="/trending" element={<Trending />} />
             <Route path="contact-us" element={<ContactUs />} />
             <Route path="about-us" element={<AboutUS />} />
+            <Route path="*" element={<Pagenotfound />} />
         </Routes>
       <Footer />
   </BrowserRouter>

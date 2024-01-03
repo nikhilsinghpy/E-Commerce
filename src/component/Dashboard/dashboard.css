@@ -1,0 +1,119 @@
+.homepage{
+    min-height: 100vh;
+    margin-top: 2rem;
+}
+.homepage .row{
+    /* gap: 2rem; */
+    margin: 0;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.product-card {
+    width: 380px;
+    position: relative;
+    box-shadow: 0 2px 7px #dfdfdf;
+    margin: 50px auto;
+    background: #fafafa;
+}
+
+.badge {
+    position: absolute;
+    left: 0;
+    top: 20px;
+    text-transform: uppercase;
+    font-size: 13px;
+    font-weight: 700;
+    background: red;
+    color: #fff;
+    padding: 3px 10px;
+}
+
+.product-tumb {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    aspect-ratio: 3/2;
+    object-fit: contain;
+    background-color: white;
+    padding: 10px;
+    /* background: #f0f0f0; */
+}
+
+.product-tumb img {
+    max-width: 100%;
+    max-height: 100%;
+    /* mix-blend-mode: color-burn; */
+}
+
+.product-details {
+    padding: 30px;
+}
+
+.product-catagory {
+    display: block;
+    font-size: 12px;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #ccc;
+    margin-bottom: 18px;
+}
+
+.product-details h4 a {
+    font-weight: 400;
+    font-size: 1rem;
+    margin-bottom: 15px;
+    text-transform: uppercase;
+    color: #363636;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+.product-details h4 a:hover {
+    color: #fbb72c;
+}
+
+.product-details p {
+    font-size: 15px;
+    line-height: 22px;
+    margin-bottom: 18px;
+    color: #999;
+}
+
+.product-bottom-details {
+    overflow: hidden;
+    border-top: 1px solid #eee;
+    padding-top: 20px;
+}
+
+.product-bottom-details div {
+    float: left;
+    width: 50%;
+}
+
+.product-price {
+    font-size: 18px;
+    color: #fbb72c;
+    font-weight: 600;
+}
+
+.product-links {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.my-btn{
+    background-color: #B76E79;
+    color: white;
+    border: 1px solid;
+    padding: 0.2rem .8rem;
+    outline: none;
+    border-radius: 1rem;
+    box-shadow: 0 0 2px #00000012, 0 2px 2px #0000000f, 0 1px 3px #0000001a;
+}
+.my-btn:hover{
+    background-color: white;
+    color: #B76E79;
+    border: 1px solid;
+
+}

@@ -9,12 +9,36 @@
       "messege": "Hii this is an json server"
     },
     {
-      "f_name": "shiv narayan",
+      "f_name": "Nikhil Singh",
       "E_id": "",
-      "mob_num": "+99399393939",
-      "E_subject": "testing",
-      "messege": "8ejjejejejje",
+      "mob_num": "08860539869",
+      "E_subject": "dfds",
+      "messege": "dgdrffd",
       "id": 2
+    },
+    {
+      "f_name": "Nikhil Singh",
+      "E_id": "nikhilsingh1139@gmail.com",
+      "mob_num": "08860539869",
+      "E_subject": "dfds",
+      "messege": "fdfgfde",
+      "id": 3
+    },
+    {
+      "f_name": "Nikhil Singh",
+      "E_id": "nikhilsingh1139@gmail.com",
+      "mob_num": "08860539869",
+      "E_subject": "dfds",
+      "messege": "hgfg",
+      "id": 4
+    },
+    {
+      "f_name": "Richa",
+      "E_id": "richasingh1139@gmail.com",
+      "mob_num": "8860539869",
+      "E_subject": "json",
+      "messege": "texting the messege\n",
+      "id": 5
     }
   ]
 }

@@ -21,7 +21,7 @@ export default class Footer extends Component {
                 <h4 className='footer-heading'>About-us</h4>
                 <ul>
                   <li><Link className='sec-link' to="*">Explore</Link></li>
-                  <li><Link className='sec-link' to="about-us">Learn More</Link></li>
+                  <li><Link className='sec-link' to="About-us">Learn More</Link></li>
                 </ul>
             </div>
             <div className="footer-link">

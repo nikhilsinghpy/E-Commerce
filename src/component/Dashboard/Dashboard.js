@@ -9,12 +9,9 @@ export default class Dashboard extends Component {
   }                                                         // arrow function and in the function  we use fetch key keyword to get data the data form api                
 
   getdatabyapi = () => {
-    // fetch('https://fakestoreapi.com/products')
-    //   .then((res) => res.json())
-    //   .then((data) => this.setState({ productdata: data }));
-      fetch('https://dummyjson.com/products')
-        .then(res => res.json())
-        .then(console.log);
+    fetch('https://fakestoreapi.com/products')
+      .then((res) => res.json())
+      .then((data) => this.setState({ productdata: data }));
 
   };
   componentDidMount(){                                                 //The componentDidMount method is used to make an asynchronous call to an API 

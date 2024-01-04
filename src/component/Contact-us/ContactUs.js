@@ -54,7 +54,7 @@ export default class ContactUs extends Component {
                   <form onSubmit={this.savedata} method='post'>
                       <div className="contact-container">
                           <input type="text" name="f_name" id="" placeholder="Full Name" onChange={this.setname}/>
-                          <input type="email" name="E_id" id="" placeholder="Email" onClick={this.setE_id}/>
+                          <input type="email" name="E_id" id="" placeholder="Email" onChange={this.setE_id} />
                       </div>
                       <div className="contact-container">
                           <input type="tel" name="mob_num" id="" placeholder="Phone" onChange={this.setmon_num}/>

@@ -12,7 +12,8 @@
 .product-card {
     width: 380px;
     position: relative;
-    box-shadow: 0 2px 7px #dfdfdf;
+    border-radius: 1rem;
+    box-shadow: 0px 0px 3px 0px rgba(82, 81, 81, 0.75);
     margin: 50px auto;
     background: #fafafa;
 }

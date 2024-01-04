@@ -9,16 +9,19 @@ export default class ContactUs extends Component {
        E_id:'',
        mob_num:'',
        E_subject:'',
-       messege:''
+       messege:'',
+       msg:''
       }
   }
  
   savedata = (event) =>{
     event.preventDefault();
-    console.log(this.state);
+   
     axios.post('http://localhost:8080/User-detail',this.state)
     .then((res) =>{
       console.log(res);
+        this.setState({msg:"don't worry we will contact you soon"})
+         console.log(this.state);
     }
     )
     .then((err) =>{
@@ -49,6 +52,13 @@ export default class ContactUs extends Component {
         <div className="container contact-us">
             <div className="container-contact-main">
             <h2 className="heading">Contact <span>US!</span></h2>
+              {
+                this.state.msg?
+                <div class="alert alert-secondary" role="alert">
+                  <p style={{textAlign:'center'}}>{this.state.msg} <a href="#" class="alert-link">let's do more shopping</a></p>
+                </div>
+                :""
+              }
               <div className='contact'>
                   
                   <form onSubmit={this.savedata} method='post'>

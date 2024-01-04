@@ -1,44 +1,31 @@
 {
   "User-detail": [
     {
-      "id": 1,
-      "name": "nikhil",
-      "mob_num": "9994949494",
-      "E_id": "nikhi28484@gmail.com",
-      "E_subject": "testing the api",
-      "messege": "Hii this is an json server"
-    },
-    {
-      "f_name": "Nikhil Singh",
-      "E_id": "",
-      "mob_num": "08860539869",
-      "E_subject": "dfds",
-      "messege": "dgdrffd",
+      "f_name": "shiv narayan",
+      "E_id": "richathakur@gmail.com",
+      "mob_num": "+99399393939",
+      "E_subject": "tesr the joson server",
+      "messege": "i  get the wrong color product",
+      "msg": "",
       "id": 2
     },
     {
-      "f_name": "Nikhil Singh",
-      "E_id": "nikhilsingh1139@gmail.com",
-      "mob_num": "08860539869",
-      "E_subject": "dfds",
-      "messege": "fdfgfde",
+      "f_name": "richa",
+      "E_id": "richathakur@gmail.com",
+      "mob_num": "999999999",
+      "E_subject": "hellow owrld",
+      "messege": "jai  baba ki",
+      "msg": "",
       "id": 3
     },
     {
-      "f_name": "Nikhil Singh",
-      "E_id": "nikhilsingh1139@gmail.com",
-      "mob_num": "08860539869",
-      "E_subject": "dfds",
-      "messege": "hgfg",
+      "f_name": "shiv narayan",
+      "E_id": "santoshiv34343@gmail.com",
+      "mob_num": "+99399393939",
+      "E_subject": "testing",
+      "messege": "har har mahadev",
+      "msg": "",
       "id": 4
-    },
-    {
-      "f_name": "Richa",
-      "E_id": "richasingh1139@gmail.com",
-      "mob_num": "8860539869",
-      "E_subject": "json",
-      "messege": "texting the messege\n",
-      "id": 5
     }
   ]
 }

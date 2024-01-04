@@ -1,5 +1,7 @@
 import axios from 'axios';
 import React, { Component } from 'react'
+import './about.css'
+import Swal from 'sweetalert2';
 
 export default class AboutUS extends Component {
   constructor(){
@@ -14,13 +16,43 @@ export default class AboutUS extends Component {
         console.error('Error fetching data:', error);
       });
   }
+  deletedata =(id) =>{
+    
+    //   .then((err)=>{
+    //     console.log(err);
+    //   })
+      Swal.fire({
+        title: "Are you sure?",
+        text: "You won't be able to revert this!",
+        icon: "warning",
+        showCancelButton: true,
+        confirmButtonColor: "#3085d6",
+        cancelButtonColor: "#d33",
+        confirmButtonText: "Yes, delete it!"
+      }).then((result) => {
+        if (result.isConfirmed) {
+          axios.delete('http://localhost:8080/User-detail/'+id)
+            .then((res)=>{
+              console.log("res");
+              Swal.fire({
+                title: "Deleted!",
+                text: "Your file has been deleted.",
+                icon: "success"
+              });
+              this.componentDidMount()
+            })
+            
+        }
+      });
+  }
   
   render() {
     return (
       <div>
-        <div className="container " style={{marginTop:'3%'}}>
+        <div className="container-fluid " style={{marginTop:'3%'}}>
           <div className="row">
             <div className="col-md-12">
+
             <table class="table  table-secondary">
               <thead>
                 <tr>
@@ -30,7 +62,8 @@ export default class AboutUS extends Component {
                   <th>EMAIL</th>
                   <th>EMAIL-SUBJECT</th>
                   <th>MESSEGE</th>
-                  <th>Peform action</th>
+                  <th>Peform </th>
+                  <th>action</th>
                 </tr>
               </thead>
               <tbody>
@@ -44,7 +77,9 @@ export default class AboutUS extends Component {
                       <td>{item.messege}</td>
                       <td >
                         <a href="#" className='btn btn-success'>Update</a>
-                        <a href="#" style={{marginLeft:'2%'}} className='btn btn-danger'>Delete</a>
+                      </td>
+                      <td>
+                       <a href="#" style={{marginLeft:'2%'}} className='btn btn-danger' onClick={()=>this.deletedata(item.id)}>Delete</a>
                       </td>
                     </tr>
                   ))}

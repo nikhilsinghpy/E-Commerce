@@ -1,5 +1,6 @@
 import React, { Component } from 'react'
 import './Contact-us.css'
+import axios from 'axios'
 export default class ContactUs extends Component {
   constructor(){
     super()
@@ -15,6 +16,15 @@ export default class ContactUs extends Component {
   savedata = (event) =>{
     event.preventDefault();
     console.log(this.state);
+    axios.post('http://localhost:8080/User-detail',this.state)
+    .then((res) =>{
+      console.log(res);
+    }
+    )
+    .then((err) =>{
+      console.log(err);
+    }
+    )
   }
   setname = (event) =>{
     // console.log(event.target.value);
@@ -34,6 +44,7 @@ export default class ContactUs extends Component {
   }
   render() {
     return (
+
       <div>
         <div className="container contact-us">
             <div className="container-contact-main">

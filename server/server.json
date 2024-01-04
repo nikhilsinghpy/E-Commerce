@@ -1,0 +1,20 @@
+{
+  "User-detail": [
+    {
+      "id": 1,
+      "name": "nikhil",
+      "mob_num": "9994949494",
+      "E_id": "nikhi28484@gmail.com",
+      "E_subject": "testing the api",
+      "messege": "Hii this is an json server"
+    },
+    {
+      "f_name": "shiv narayan",
+      "E_id": "",
+      "mob_num": "+99399393939",
+      "E_subject": "testing",
+      "messege": "8ejjejejejje",
+      "id": 2
+    }
+  ]
+}

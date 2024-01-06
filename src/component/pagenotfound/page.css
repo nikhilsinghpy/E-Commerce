@@ -1,13 +1,27 @@
-@media  (max-width: 1200px)
-{
-    html{
-        font-size: 90%;
-    }
-    
+.pg{
+    /* background-color: red; */
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* color: white; */
+    background-image: url(../../assets/images/istockphoto-466715407-1024x1024-transformed.jpeg);
+    background-position: bottom center;
 }
+.pg h1{
+    color:skyblue;
+    text-shadow: 4px 4px 10px rgba(172, 230, 245, 0.6);
+    font-size: 3rem;
+    font-weight: 600;
+    
 
-@media (max-width:1024px){
-    section {
-        padding: 10rem 3% 2rem;
-    }
+}
+.pg p{
+    color: white;
+    text-shadow: 4px 4px 10px rgba(0,0,0,0.6);
+    font-size: 1.5rem;
+}
+.pg p span{
+    color: skyblue;
 }
